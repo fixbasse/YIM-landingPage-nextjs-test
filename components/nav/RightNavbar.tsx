@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 const RightNavbar = () => {
     return (
         <>
-            <button className='bg-gray-100 text-gray-700 px-6 py-5 rounded-2xl'>
+            <button className='bg-gray-100 text-gray-700 px-6 py-5 rounded-2xl hidden sm:block'>
                 ออกจากระบบ
             </button>
 

@@ -22,7 +22,7 @@ const LeftHero = () => {
             </article>
 
             {/* Search Box */}
-            <section className='flex items-center mt-16 relative'>
+            <section className='flex items-center mt-4 md:mt-16 relative'>
                 <CiSearch className='absolute left-4 text-gray-400' size={20} />
                 <input
                     type="text"
