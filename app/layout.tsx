@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Kanit, Work_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/nav/Navbar";
 import Footer from "@/components/footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Kanit({
+//   weight: '200',
+//   subsets: ['latin']
+// });
 
 export const metadata: Metadata = {
   title: "YIM-LandingPage-Test",
@@ -18,8 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="px-4 md:px-10 lg:px-32">
+      <body>
+        <div className="px-4 md:px-10 lg:px-40">
           <Navbar />
           {children}
           <Footer />

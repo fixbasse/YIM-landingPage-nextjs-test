@@ -1,5 +1,6 @@
+import { navLinks } from '@/data/data'
 import React from 'react'
-import { navLinks } from './Navbar'
+
 
 const LeftNavbar = () => {
     return (

@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../button/Button'
 import Image from 'next/image'
 import { IoIosArrowDown } from "react-icons/io";
 
