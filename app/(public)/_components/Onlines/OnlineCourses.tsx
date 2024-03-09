@@ -1,3 +1,4 @@
+import ViewAllButton from '@/components/ViewAllButton'
 import { topicData } from '@/data/data'
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa6'
@@ -6,10 +7,13 @@ import { LuFilm } from 'react-icons/lu'
 const OnlineCourses = () => {
     return (
         <div>
+            <header className='flex items-center justify-between'>
+                <div className='flex items-center gap-6 font-medium text-xl pb-8'>
+                    <LuFilm />
+                    คอร์สออนไลน์
+                </div>
 
-            <header className='flex items-center gap-2 font-medium text-xl pb-8'>
-                <LuFilm />
-                คอร์สออนไลน์
+                <ViewAllButton />
             </header>
 
             <section className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
@@ -22,7 +26,7 @@ const OnlineCourses = () => {
                             </h3>
                         </div>
 
-                        <p className='py-4 font-light text-sm text-gray-500'>
+                        <p className='font-light text-sm text-gray-500'>
                             {item.desc}
                         </p>
 
