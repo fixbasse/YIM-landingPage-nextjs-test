@@ -43,7 +43,7 @@ const RightHero = () => {
       </section>
 
       <section className='w-[20%] bg-teal-200 rounded-3xl p-4 flex flex-col justify-between'>
-        <h2 className='text-xl rotate-90'>
+        <h2 className='text-xl'>
           Generative ChatGPT:
           <br />
           UX Design

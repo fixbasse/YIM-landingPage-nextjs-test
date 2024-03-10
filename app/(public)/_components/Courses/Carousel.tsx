@@ -9,6 +9,10 @@ import {
 } from "@/components/ui/carousel"
 import { Progress } from "../../../../components/ui/progress"
 import { coursesData } from "@/data/data"
+import Course1 from "./Course1"
+import Course2 from "./Course2"
+import Course3 from "./Course3"
+import Course4 from "./Course4"
 
 export function CarouselSize() {
     return (
@@ -16,42 +20,22 @@ export function CarouselSize() {
             className="w-full"
         >
             <CarouselContent className="">
-                {coursesData.map((item) => (
-                    <CarouselItem key={item.id} className="sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
-                        <div className="rounded-xl shadow-xl">
-
-                            {/* Top */}
-                            <section className={`text-white rounded-t-xl p-4 h-[120px]
-                            ${item.bg}
-                            `}>
-                                <h2 className="text-sm">
-                                    {item.title}
-                                </h2>
-                            </section>
-
-                            {/* Bottom */}
-                            <section className="p-4 text-sm flex flex-col justify-between rounded-b-xl h-[140px]">
-                                <span className="font-light">
-                                    {item.desc}
-                                </span>
-
-                                <div>
-                                    <div className="flex items-center pb-4 font-light">
-                                        <h4>
-                                            เรียนไปแล้ว
-                                        </h4>
-                                        <span className="font-semibold pl-1">
-                                            {item.value}%
-                                        </span>
-                                    </div>
-
-                                    <Progress className="h-[10px]" value={item.value} />
-                                </div>
-                            </section>
-                        </div>
-
-                    </CarouselItem>
-                ))}
+                <CarouselItem className="sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
+                    {/* 1st */}
+                    <Course1 />
+                </CarouselItem>
+                <CarouselItem className="sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
+                    {/* 2nd */}
+                    <Course2 />
+                </CarouselItem>
+                <CarouselItem className="sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
+                    {/* 3rd */}
+                    <Course3 />
+                </CarouselItem>
+                <CarouselItem className="sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
+                    {/* 4th */}
+                    <Course4 />
+                </CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />

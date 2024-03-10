@@ -10,8 +10,8 @@ import { CarouselEx } from '@/components/CaroselEx'
 const OnlineCourses = () => {
     return (
         <div>
-            <header className='flex items-center justify-between'>
-                <div className='flex items-center gap-6 font-medium text-xl pb-8'>
+            <header className='flex items-center justify-between mb-8'>
+                <div className='flex items-center gap-6 font-medium text-xl'>
                     <LuFilm />
                     คอร์สออนไลน์
                 </div>

@@ -14,7 +14,7 @@ const Topics = () => {
 
             <section className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                 {topicData.map((item) => (
-                    <div key={item.id} className='shadow-md rounded-xl p-4 flex flex-col justify-between h-[180px]'>
+                    <div key={item.id} className='shadow-md rounded-xl p-4 flex flex-col justify-between h-[180px] bg-white'>
                         <div>
                             <div className='flex items-center gap-2'>
                                 {item.icon}

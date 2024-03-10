@@ -44,28 +44,28 @@ export const topicData = [
 
 export const coursesData = [
     {
-        id: '1',
+        id: 1,
         title: 'Generative AI and ChatGPT: Design Thinking Edition',
         desc: 'Generative AI and ChatGPT: Design Thinking Edition',
         bg: 'bg-sky-800',
         value: 0
     },
     {
-        id: '2',
+        id: 2,
         title: 'Generative AI and ChatGPT: UX Design Edition',
         desc: 'Generative AI and ChatGPT: UX Design Edition',
         bg: 'bg-purple-900',
         value: 10
     },
     {
-        id: '3',
+        id: 3,
         title: 'เทคนิคการจัดทำบัญชี จัดการภาษี ด้วยเทคโนโลยีดิจิทัล',
         desc: 'เทคนิคการจัดทำบัญชี จัดการภาษี ด้วยเทคโนโลยีดิจิทัล',
         bg: 'bg-blue-900',
         value: 40
     },
     {
-        id: '4',
+        id: 4,
         title: 'องค์ประกอบของการเป็นผู้ประกอบการ SME ที่ประสบความสำเร็จ',
         desc: 'องค์ประกอบของการเป็นผู้ประกอบการ SME ที่ประสบความสำเร็จ',
         bg: 'bg-teal-700',
@@ -121,7 +121,7 @@ export const onlineCoursesData = [
         desc: 'รู้และเข้าใจปัจจัยที่ส่งผลกระทบต่อราคาหุ้น',
         bg: 'bg-yellow-200',
         name: 'ณัฐกาณต์ สิทธิชัยอนันต์',
-        position: 'CEO Y.I.M Corporation'
+        position: 'Software Engineer'
     },
 ]
 

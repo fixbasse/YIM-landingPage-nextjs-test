@@ -5,11 +5,11 @@ import { IoIosArrowDown } from "react-icons/io";
 const RightNavbar = () => {
     return (
         <>
-            <button className='bg-gray-100 text-gray-700 px-6 py-5 rounded-2xl hidden sm:block'>
+            <button className='bg-gray-200 text-gray-700 px-6 py-3 rounded-2xl hidden sm:block'>
                 ออกจากระบบ
             </button>
 
-            <button className=' bg-gray-800 px-6 py-4 rounded-2xl flex items-center gap-2'>
+            <button className=' bg-gray-800 px-6 py-3 rounded-2xl flex items-center gap-2'>
                 <Image
                     src='/noavatar.png'
                     width={30}

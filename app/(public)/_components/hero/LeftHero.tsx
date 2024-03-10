@@ -9,7 +9,7 @@ const LeftHero = () => {
             </span>
 
             <article className='pt-4'>
-                <h1 className='text-4xl leading-[3rem]'>
+                <h1 className='text-5xl leading-[4rem]'>
                     learn anytime,
                     <br />
                     anywhere

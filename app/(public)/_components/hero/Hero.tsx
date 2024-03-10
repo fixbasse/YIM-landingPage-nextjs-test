@@ -9,7 +9,7 @@ const Hero = () => {
             <section className='md:w-[40%]'>
                 <LeftHero />
             </section>
-            <section className='md:w-[60%] flex gap-4'>
+            <section className='md:w-[60%] flex gap-4 relative'>
                 <RightHero />
             </section>
 
