@@ -6,10 +6,10 @@ const LeftArticle = () => {
     return (
         <>
             {/* 1st */}
-            <div className='grid grid-cols-5 rounded-xl bg-white'>
+            <div className='grid min-[425px]:grid-cols-5 rounded-xl bg-white'>
 
-                <section className='bg-gray-800 rounded-l-lg col-span-2'>
-                    <h2 className='text-white text-xl p-8 uppercase font-semibold leading-9'>
+                <section className='bg-gray-800 rounded-l-lg col-span-5 min-[425px]:col-span-2'>
+                    <h2 className='text-white text-xl p-8 uppercase font-semibold leading-9 max-[425px]:text-center'>
                         Profit / Loss <br />
                         of stocks <br />
                         in the <br />
@@ -47,10 +47,10 @@ const LeftArticle = () => {
                 </section>
             </div>
             {/* 2nd */}
-            <div className='grid grid-cols-5 rounded-xl bg-white'>
+            <div className='grid min-[425px]:grid-cols-5 rounded-xl bg-white'>
 
-                <section className='bg-sky-900 rounded-l-lg col-span-2'>
-                    <h2 className='text-white text-xl p-8 uppercase'>
+                <section className='bg-sky-900 rounded-l-lg col-span-5 min-[425px]:col-span-2'>
+                    <h2 className='text-white text-xl p-8 uppercase max-[425px]:text-center'>
                         What Is <br />
                         A Data <br />
                         Engineer <br />
@@ -70,7 +70,7 @@ const LeftArticle = () => {
                             กับหลากหลายเครื่องมือเพื่อ <br />
                             รวบรวมข้อมูลจัดการข้อมูลและ <br />
                             เปลี่ยนข้อมูลดิบ ให้พร้อมใช้งาน <br />
-                            สำหรับทั้ง Data Scientist และ Data <br />
+                            สำหรับทั้ง Data Scientist และ Data
                             Analyst
                         </p>
                     </div>

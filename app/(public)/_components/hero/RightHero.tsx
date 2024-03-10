@@ -4,7 +4,7 @@ import React from 'react'
 const RightHero = () => {
   return (
     <>
-      <section className='w-[60%] text-white bg-teal-900 rounded-3xl p-8 flex flex-col justify-between'>
+      <section className='w-full md:w-[60%] text-white bg-teal-900 rounded-3xl p-8 flex flex-col justify-between'>
         <div>
 
           <h2 className='text-2xl'>
@@ -23,7 +23,7 @@ const RightHero = () => {
           </p>
         </div>
 
-        <article className='flex items-center gap-2'>
+        <article className='flex items-center gap-2 pt-4'>
           <Image
             src='/noavatar.png'
             width={40}
@@ -42,7 +42,7 @@ const RightHero = () => {
         </article>
       </section>
 
-      <section className='w-[20%] bg-teal-200 rounded-3xl p-4 flex flex-col justify-between'>
+      <section className='sm:w-[20%] bg-teal-200 rounded-3xl p-4 flex flex-col justify-between'>
         <h2 className='text-xl'>
           Generative ChatGPT:
           <br />
@@ -58,7 +58,7 @@ const RightHero = () => {
         />
       </section>
 
-      <section className='w-[20%] bg-yellow-200 rounded-3xl p-4 flex flex-col justify-between'>
+      <section className='sm:w-[20%] bg-yellow-200 rounded-3xl p-4 flex flex-col justify-between'>
         <h2 className='text-xl rotate-90'>
           Generative ChatGPT:
           <br />
