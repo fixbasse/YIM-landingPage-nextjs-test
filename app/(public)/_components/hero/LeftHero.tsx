@@ -29,7 +29,7 @@ const LeftHero = () => {
                     placeholder='ค้นหาหลักสูตร'
                     className='border p-2 rounded-l-lg h-[45px] w-full placeholder:pl-8 placeholder:font-light placeholder:text-gray-300'
                 />
-                <button className='bg-teal-700 p-2 h-[45px] w-[150px] rounded-r-lg text-white font-light'>
+                <button className='bg-lime-600 p-2 h-[45px] w-[150px] rounded-r-lg text-white font-light'>
                     ค้นหา
                 </button>
             </section>

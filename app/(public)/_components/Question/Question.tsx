@@ -1,8 +1,12 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import { LuFilm } from 'react-icons/lu'
+import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+import { EditorState } from 'draft-js';
+import { Editor } from 'react-draft-wysiwyg'
+
 
 type Input = {
     topic: string;
@@ -10,6 +14,7 @@ type Input = {
 }
 
 const Question = () => {
+    const [editorState, setEditorState] = useState(() => EditorState.createEmpty())
     const { register, handleSubmit } = useForm<Input>();
 
     const onSubmit: SubmitHandler<Input> = (values) => {
@@ -46,17 +51,17 @@ const Question = () => {
                     <h3 className='font-semibold'>
                         เนื้อหา
                     </h3>
-                    <input
-                        type="text"
-                        placeholder='หัวข้อกระทู้'
-                        className='border rounded-xl w-full p-2 pl-6'
-                        {...register('editor', { required: true })}
-                    />
+                    <div className='border rounded-xl h-[200px]'>
+                        <Editor
+                            editorState={editorState}
+                            onEditorStateChange={setEditorState}
+                        />
+                    </div>
                 </section>
 
                 <button
                     type='submit'
-                    className='bg-lime-500 text-white p-3 w-[180px] rounded-lg ml-auto'>
+                    className='bg-lime-600 text-white p-3 w-[180px] rounded-lg ml-auto'>
                     ส่ง
                 </button>
             </form>
