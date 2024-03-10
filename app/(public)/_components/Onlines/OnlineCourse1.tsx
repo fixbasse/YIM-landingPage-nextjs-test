@@ -10,11 +10,11 @@ const OnlineCourse1 = () => {
                     Business
                 </h4>
                 <h2 className="text-xl font-semibold pt-2">
-                    ลงทุนหุ้นมั่นใจต้องเข้า <br />
-                    ใจปัจจัยพื้นฐาน
+                    ลงทุนหุ้นมั่นใจ <br />
+                    ต้องเข้าใจปัจจัยพื้นฐาน
                 </h2>
 
-                <p className='font-light pt-4 max-[768px]:pb-2 leading-6'>
+                <p className='font-light pt-4 max-[768px]:pb-2 leading-7'>
                     รู้และเข้าใจปัจจัยที่ส่งผล <br />
                     กระทบต่อราคาหุ้น
                 </p>

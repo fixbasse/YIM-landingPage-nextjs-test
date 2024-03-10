@@ -14,7 +14,7 @@ const OnlineCourse4 = () => {
                     and ChatGPT: Design Thinking Edition
                 </h2>
 
-                <p className='font-light pt-4 max-[768px]:pb-2 leading-6'>
+                <p className='font-light pt-4 max-[768px]:pb-2 leading-7'>
                     ปลดล็อคขีดจำกัดการทำงาน <br />
                     ด้วยพลัง AI
                 </p>

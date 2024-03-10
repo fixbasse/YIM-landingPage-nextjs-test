@@ -10,7 +10,7 @@ const Course2 = () => {
         
         `}>
                 <h2 className="text-sm">
-                    Generative AI and ChatGPT: <br />
+                    Generative ChatGPT: <br />
                     UX Design Edition
                 </h2>
             </section>
@@ -18,7 +18,8 @@ const Course2 = () => {
             {/* Bottom */}
             <section className="p-4 text-sm flex flex-col justify-between rounded-b-xl h-[140px]">
                 <span className="font-light">
-                    Generative AI and ChatGPT: UX Design Edition
+                    Generative ChatGPT: UX <br />
+                     Design Edition
                 </span>
 
                 <div>

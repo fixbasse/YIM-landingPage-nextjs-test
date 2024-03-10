@@ -4,7 +4,7 @@ import React from 'react'
 const RightHero = () => {
   return (
     <>
-      <section className='w-full md:w-[60%] text-white bg-teal-900 rounded-3xl p-8 flex flex-col justify-between'>
+      <section className='w-full text-center sm:text-left md:w-[60%] text-white bg-teal-900 rounded-3xl p-8 flex flex-col justify-between'>
         <div>
 
           <h2 className='text-2xl'>
@@ -23,7 +23,7 @@ const RightHero = () => {
           </p>
         </div>
 
-        <article className='flex items-center gap-2 pt-4'>
+        <article className='flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-2 pt-4'>
           <Image
             src='/noavatar.png'
             width={40}
@@ -42,35 +42,60 @@ const RightHero = () => {
         </article>
       </section>
 
-      <section className='sm:w-[20%] bg-teal-200 rounded-3xl p-4 flex flex-col justify-between'>
-        <h2 className='text-xl'>
-          Generative ChatGPT:
-          <br />
-          UX Design
-        </h2>
+      {/* Rotate2 */}
+      <section className='sm:w-[20%] bg-teal-200 rounded-3xl p-4 flex flex-col justify-center'>
+        <div className='min-[640px]:rotate-[-90deg] text-xl mt-auto'>
+          <div className='md:flex gap-2'>
+            <h2>
+              Generative
+            </h2>
+            <span>
+              ChatGPT:
+            </span>
+          </div>
+
+          <div className='flex gap-2'>
+            <h2>
+              UX
+            </h2>
+            Design
+          </div>
+        </div>
 
         <Image
           src='/noavatar.png'
           width={40}
           height={40}
           alt='/'
-          className='rounded-full'
+          className='rounded-full mt-auto'
         />
       </section>
 
+      {/* Rotate2 */}
       <section className='sm:w-[20%] bg-yellow-200 rounded-3xl p-4 flex flex-col justify-between'>
-        <h2 className='text-xl rotate-90'>
-          Generative ChatGPT:
-          <br />
-          UX Design
-        </h2>
+        <div className='min-[640px]:rotate-[-90deg] text-xl mt-auto'>
+          <div className='flex gap-2'>
+            <h2>
+              UX
+            </h2>
+            <span>
+              Accelerator
+            </span>
+          </div>
+
+
+          <h2>
+            Bundle
+          </h2>
+
+        </div>
 
         <Image
           src='/noavatar.png'
           width={40}
           height={40}
           alt='/'
-          className='rounded-full'
+          className='rounded-full mt-auto'
         />
       </section>
     </>

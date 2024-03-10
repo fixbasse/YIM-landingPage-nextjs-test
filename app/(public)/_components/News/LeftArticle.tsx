@@ -8,7 +8,7 @@ const LeftArticle = () => {
             {/* 1st */}
             <div className='grid min-[425px]:grid-cols-5 rounded-xl bg-white'>
 
-                <section className='bg-gray-800 rounded-l-lg col-span-5 min-[425px]:col-span-2'>
+                <section className='bg-gray-800 max-[425px]:rounded-lg rounded-l-lg col-span-5 min-[425px]:col-span-2'>
                     <h2 className='text-white text-xl p-8 uppercase font-semibold leading-9 max-[425px]:text-center'>
                         Profit / Loss <br />
                         of stocks <br />
@@ -49,7 +49,7 @@ const LeftArticle = () => {
             {/* 2nd */}
             <div className='grid min-[425px]:grid-cols-5 rounded-xl bg-white'>
 
-                <section className='bg-sky-900 rounded-l-lg col-span-5 min-[425px]:col-span-2'>
+                <section className='bg-sky-900 max-[425px]:rounded-lg rounded-l-lg col-span-5 min-[425px]:col-span-2'>
                     <h2 className='text-white text-xl p-8 uppercase max-[425px]:text-center'>
                         What Is <br />
                         A Data <br />

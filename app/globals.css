@@ -11,6 +11,15 @@ body {
   font-family: "Prompt", sans-serif;
 }
 
+/* .rotate1 {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  
+} */
+
 @layer base {
   :root {
     --background: 0 0% 100%;

@@ -14,7 +14,7 @@ const OnlineCourse2 = () => {
                     Web Application
                 </h2>
 
-                <p className='font-light pt-4 max-[768px]:pb-2 leading-6'>
+                <p className='font-light pt-4 max-[768px]:pb-2 leading-7'>
                     การพัฒนา Application <br />
                     ด้วยคอนเซ์ปท์ Progressive Web Application (PWA)
                 </p>

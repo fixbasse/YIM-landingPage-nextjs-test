@@ -14,7 +14,7 @@ const OnlineCourse3 = () => {
                     in Action
                 </h2>
 
-                <p className='font-light pt-4 max-[768px]:pb-2 leading-6'>
+                <p className='font-light pt-4 max-[768px]:pb-2 leading-7'>
                     เรียนรู้การเขีนน React Hooks แบบ Best Practice
                 </p>
             </div>
