@@ -12,7 +12,7 @@ const Topics = () => {
                 เลือกเรียนตามหัวข้อที่สนใจ
             </header>
 
-            <section className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+            <section className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                 {topicData.map((item) => (
                     <div key={item.id} className='shadow-md rounded-xl p-4 flex flex-col justify-between h-[180px]'>
                         <div>

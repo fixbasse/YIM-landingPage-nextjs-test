@@ -4,7 +4,7 @@ import RightHero from './RightHero'
 
 const Hero = () => {
     return (
-        <div className='flex flex-col md:flex-row md:gap-20 gap-10 md:h-[50dvh]'>
+        <div className='flex flex-col md:flex-row md:gap-20 gap-10 md:h-[55dvh] mt-4'>
 
             <section className='md:w-[40%]'>
                 <LeftHero />

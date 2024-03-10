@@ -67,7 +67,7 @@ export const coursesData = [
     {
         id: '4',
         title: 'องค์ประกอบของการเป็นผู้ประกอบการ SME ที่ประสบความสำเร็จ',
-        desc: 'Generative AI and ChatGPT: UX Design Edition',
+        desc: 'องค์ประกอบของการเป็นผู้ประกอบการ SME ที่ประสบความสำเร็จ',
         bg: 'bg-teal-700',
         value: 80
     },
@@ -76,10 +76,73 @@ export const coursesData = [
 export const ourCourses = [
     {
         title: 'คอร์สของเรา',
-        detail : [
+        detail: [
             {
                 text: 'policy'
             },
         ]
+    },
+]
+
+export const onlineCoursesData = [
+    {
+        id: '1',
+        type: 'Business',
+        title: 'ลงทุนหุ้นมั่นใจต้องเข้าใจปัจจัยพื้นฐาน',
+        desc: 'รู้และเข้าใจปัจจัยที่ส่งผลกระทบต่อราคาหุ้น',
+        bg: 'bg-yellow-200',
+        name: 'ณัฐกาณต์ สิทธิชัยอนันต์',
+        position: 'CEO Y.I.M Corporation'
+    },
+    {
+        id: '2',
+        type: 'Data',
+        title: 'Progressive  Web Application',
+        desc: 'การพัฒนา Application ด้วยคอนเซ์ปท์ Progressive Web Application (PWA)',
+        text: 'text-white',
+        bg: 'bg-yellow-200',
+        name: 'ปัญจมพงศ์ เสริมสวัสดิ์ศรี',
+        position: 'Google Developers'
+    },
+    {
+        id: '3',
+        type: 'Science',
+        title: 'React Hooks in Action',
+        desc: 'เรียนรู้การเขีนน React Hooks แบบ Best Practice',
+        bg: 'bg-yellow-200',
+        name: 'วรัทธน์ วงศ์มณีกิจ',
+        position: 'Co-Founder',
+    },
+    {
+        id: '4',
+        type: 'Tech',
+        title: 'Generative AI and ChatGPT: Design Thinking Edition',
+        text: 'text-white',
+        desc: 'รู้และเข้าใจปัจจัยที่ส่งผลกระทบต่อราคาหุ้น',
+        bg: 'bg-yellow-200',
+        name: 'ณัฐกาณต์ สิทธิชัยอนันต์',
+        position: 'CEO Y.I.M Corporation'
+    },
+]
+
+export const articleData = [
+    {
+        id: '1',
+        type: 'Business',
+        title: 'ลงทุนหุ้นมั่นใจต้องเข้าใจปัจจัยพื้นฐาน',
+        desc: 'รู้และเข้าใจปัจจัยที่ส่งผลกระทบต่อราคาหุ้น',
+        bg: 'bg-yellow-200',
+        name: 'ณัฐกาณต์ สิทธิชัยอนันต์',
+        position: 'CEO Y.I.M Corporation'
+    },
+    {
+        id: '2',
+        type: 'Data',
+        title: 'Progressive  Web Application',
+        desc: 'การพัฒนา Application ด้วยคอนเซ์ปท์ Progressive Web Application (PWA)',
+        text: 'text-white',
+        bg: 'bg-yellow-200',
+        name: 'ปัญจมพงศ์ เสริมสวัสดิ์ศรี',
+        position: 'Google Developers'
     },
 ]

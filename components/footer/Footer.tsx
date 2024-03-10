@@ -2,12 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="px-4 md:px-10 lg:px-40 bg-teal-800 py-8 text-white mt-8 md:mt-16">
+    <footer className="px-4 lg:px-10 xl:px-40 bg-teal-800 py-8 text-white mt-8 md:mt-16">
 
       <header className='pb-8 text-4xl'>
         LOGO
       </header>
-
 
       <section className='border-y text-white grid sm:grid-cols-2 md:grid-cols-4 max-[768px]:gap-4 py-8 mb-4'>
         <div>

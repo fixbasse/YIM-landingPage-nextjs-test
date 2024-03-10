@@ -7,7 +7,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
-import { Progress } from "./ui/progress"
+import { Progress } from "../../../../components/ui/progress"
 import { coursesData } from "@/data/data"
 
 export function CarouselSize() {
@@ -18,7 +18,7 @@ export function CarouselSize() {
             <CarouselContent className="">
                 {coursesData.map((item) => (
                     <CarouselItem key={item.id} className="sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
-                        <div className="h-[260px] shadow-lg rounded-xl">
+                        <div className="rounded-xl shadow-xl">
 
                             {/* Top */}
                             <section className={`text-white rounded-t-xl p-4 h-[120px]
@@ -31,7 +31,7 @@ export function CarouselSize() {
 
                             {/* Bottom */}
                             <section className="p-4 text-sm flex flex-col justify-between rounded-b-xl h-[140px]">
-                                <span className="font-light w-[180px]">
+                                <span className="font-light">
                                     {item.desc}
                                 </span>
 

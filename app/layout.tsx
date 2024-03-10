@@ -4,10 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/nav/Navbar";
 import Footer from "@/components/footer/Footer";
 
-// const inter = Kanit({
-//   weight: '200',
-//   subsets: ['latin']
-// });
+// const inter = prompt({subsets: ['latin']});
 
 export const metadata: Metadata = {
   title: "YIM-LandingPage-Test",
@@ -22,11 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="px-4 md:px-10 lg:px-40">
+        <div className="px-4 lg:px-10 xl:px-40">
           <Navbar />
           {children}
         </div>
-        
+
         <Footer />
       </body>
     </html>

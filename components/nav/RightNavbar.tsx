@@ -17,7 +17,7 @@ const RightNavbar = () => {
                     alt='/'
                     className='rounded-full'
                 />
-                <h3 className='text-white text-sm'>
+                <h3 className='text-white text-sm font-light'>
                     Siriwat Rachanon
                 </h3>
 

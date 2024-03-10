@@ -1,4 +1,4 @@
-import { CarouselSize } from '@/components/Carousel'
+import { CarouselSize } from '@/app/(public)/_components/Courses/Carousel'
 import ViewAllButton from '@/components/ViewAllButton'
 import { topicData } from '@/data/data'
 import React from 'react'
