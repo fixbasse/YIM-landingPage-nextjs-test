@@ -1,4 +1,9 @@
 import React from 'react'
+import { FaYoutube } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -43,16 +48,29 @@ const Footer = () => {
             <li>Cookie Policy</li>
           </ul>
         </div>
-        <div>
-          <h2 className='py-2'>
-            คอร์สของเรา
-          </h2>
-          <ul className='font-light flex flex-col gap-1 text-sm'>
-            <li>Data</li>
-            <li>Science</li>
-            <li>Tech</li>
-            <li>Business</li>
-          </ul>
+        {/* lorem */}
+        <div className='flex flex-col justify-between'>
+          <div>
+            <h2>
+              Lorem Ipsum is simply dummy <br />
+              text of the printing
+            </h2>
+            <div className='font-light py-2 flex flex-col gap-1 text-sm'>
+              199 ม.6 ต.ทุ่งสุขลา อ.ศรีราชา <br />
+              จ.ชลบุรี 20230
+            </div>
+          </div>
+
+          <div>
+            ติดต่อเรา
+            <div className='flex items-center gap-6 pt-2'>
+              <FaYoutube />
+              <FaFacebookF />
+              <FaTwitter />
+              <FaInstagram />
+              <FaLinkedinIn />
+            </div>
+          </div>
         </div>
 
       </section>
