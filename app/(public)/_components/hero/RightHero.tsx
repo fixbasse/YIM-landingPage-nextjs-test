@@ -42,10 +42,10 @@ const RightHero = () => {
         </article>
       </section>
 
-      {/* Rotate2 */}
+      {/* Rotate1 */}
       <section className='sm:w-[20%] bg-teal-200 rounded-3xl p-4 flex flex-col justify-center'>
         <div className='min-[640px]:rotate-[-90deg] text-xl mt-auto'>
-          <div className='md:flex gap-2'>
+          <div className='hidden sm:flex gap-2'>
             <h2>
               Generative
             </h2>
@@ -62,6 +62,11 @@ const RightHero = () => {
           </div>
         </div>
 
+        {/* For Small Screen */}
+        <span className='block sm:hidden'>
+          Generative ChatGPT: UX Design
+        </span>
+
         <Image
           src='/noavatar.png'
           width={40}
@@ -74,7 +79,7 @@ const RightHero = () => {
       {/* Rotate2 */}
       <section className='sm:w-[20%] bg-yellow-200 rounded-3xl p-4 flex flex-col justify-between'>
         <div className='min-[640px]:rotate-[-90deg] text-xl mt-auto'>
-          <div className='flex gap-2'>
+          <div className='hidden sm:flex gap-2'>
             <h2>
               UX
             </h2>
@@ -89,6 +94,11 @@ const RightHero = () => {
           </h2>
 
         </div>
+
+        {/* For Small Screen */}
+        <span className='block sm:hidden'>
+          UX Accelerator Bundle
+        </span>
 
         <Image
           src='/noavatar.png'

@@ -57,9 +57,14 @@ const Footer = () => {
 
       </section>
 
-      <span className='text-sm font-light flex max-[768px]:justify-center'>
-        Y.I.M. Corporation @ 2023. All rights reserved
-      </span>
+      <div className='text-sm font-light flex max-[768px]:flex-col max-[768px]:justify-center items-center justify-between'>
+        <h3>
+          Y.I.M. Corporation @ 2023. All rights reserved
+        </h3>
+        <h3>
+          0-3835-4580-4, 0-3835-2611-6
+        </h3>
+      </div>
 
     </footer>
   )
